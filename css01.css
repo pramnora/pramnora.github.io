@@ -1,0 +1,59 @@
+a{
+ text-decoration:none;
+}
+
+a:hover{
+ text-decoration:underline;
+ color:red;
+}
+
+a:active{
+ color;red;
+}
+
+a:visited{
+ color:purple;
+}
+
+
+body{
+ font-family:arial,verdana,sans-serif;
+ padding:5%;
+}
+
+nav{
+ text-align:center;
+}
+
+#idNavSelectedItem{
+ font-weight:bold;
+}
+
+header{
+ text-align:center;
+}
+
+main{
+ border:1px solid black; 
+ text-indent:1cm;
+ padding:1%;
+}
+
+footer{
+ text-align:right;
+}
+
+#idCopyrightMessage{
+ background-color:black;
+ color:white;
+ font-weight:bold;
+}
+
+#idPowered{
+ font-weight:bold;
+}
+
+.clsTimeDateStamp{
+ color:red;
+ font-style:italic;
+}
