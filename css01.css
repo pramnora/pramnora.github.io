@@ -1,3 +1,11 @@
+/*
+  Stylesheet created for...
+  http://pramnora.github.io
+
+  Created: 07:03 17/10/2016
+  Updated: 09:23 17/10/2016
+*/
+
 a{
  text-decoration:none;
 }
@@ -37,6 +45,11 @@ main{
  border:1px solid black; 
  text-indent:1cm;
  padding:1%;
+}
+
+table th{
+ background-color:black;
+ color:white;
 }
 
 footer{
