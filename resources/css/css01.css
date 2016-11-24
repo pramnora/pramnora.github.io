@@ -1,0 +1,100 @@
+/*
+  Stylesheet created for...
+  http://pramnora.github.io
+
+  Created: 07:03 17/10/2016
+  Updated: 17:48 20/10/2016
+*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* links */
+
+a{
+ text-decoration:none;
+}
+
+a:hover{
+ text-decoration:underline;
+ color:red;
+}
+
+a:active{
+ color;red;
+}
+
+a:visited{
+ color:purple;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* body */
+
+body{
+ font-family:arial,verdana,sans-serif;
+ padding:5%;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* nav */
+
+nav{
+ text-align:center;
+}
+
+#idNavSelectedItem{
+ font-weight:bold;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* header */
+
+header{
+ text-align:center;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* main */
+
+main{
+ border:1px solid black; 
+ border-radius:80;
+ text-indent:1cm;
+ padding:1%;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* table */
+
+table th{
+ background-color:black;
+ color:white;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* footer */
+
+footer{
+ text-align:right;
+}
+
+#idCopyrightMessage{
+ background-color:black;
+ color:white;
+ font-weight:bold;
+}
+
+#idPowered{
+ font-weight:bold;
+}
+
+.clsTimeDateStamp{
+ color:red;
+ font-style:italic;
+}
