@@ -1,0 +1,134 @@
+<?xml version="1.0" standalone="no" ?>
+<data>
+
+ <letter-number-pair>
+  <letter>a</letter>
+  <number>01</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>b</letter>
+  <number>02</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>c</letter>
+  <number>03</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>d</letter>
+  <number>04</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>e</letter>
+  <number>05</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>f</letter>
+  <number>06</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>g</letter>
+  <number>07</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>h</letter>
+  <number>08</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>i</letter>
+  <number>09</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>j</letter>
+  <number>10</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>k</letter>
+  <number>11</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>l</letter>
+  <number>12</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>m</letter>
+  <number>13</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>n</letter>
+  <number>14</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>o</letter>
+  <number>15</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>p</letter>
+  <number>16</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>q</letter>
+  <number>17</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>r</letter>
+  <number>18</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>s</letter>
+  <number>19</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>t</letter>
+  <number>20</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>u</letter>
+  <number>21</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>v</letter>
+  <number>22</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>w</letter>
+  <number>23</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>x</letter>
+  <number>24</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>y</letter>
+  <number>25</number>
+ </letter-number-pair>
+
+ <letter-number-pair>
+  <letter>z</letter>
+  <number>26</number>
+ </letter-number-pair>
+
+</data>
