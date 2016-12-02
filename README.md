@@ -1,6 +1,6 @@
 # pramnora.github.io
 
-**A few words of introductory explanation...**
+**INTRODUCTION**
 
 This is my own *personal* web site which is hosted here on GitHub entirely for FREE...! ;-)  
 
