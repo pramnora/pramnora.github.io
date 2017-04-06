@@ -25,6 +25,7 @@ a:visited{
 }
 
 a:hover{
+ background-color:white;
  text-decoration:underline;
  color:red;
 }
@@ -45,7 +46,16 @@ body{
 /* Header */
 
 header{
+ background-color:gray;
  text-align:center;
+}
+
+h1{
+ color:black;
+}
+
+h2{
+ color:white;
 }
 
 /* Nav */
@@ -57,6 +67,8 @@ nav{
 /* Footer */
 
 footer{
+ background-color:silver;
+ color:black;
  text-align:right;
 }
 
