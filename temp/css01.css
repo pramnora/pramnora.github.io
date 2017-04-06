@@ -50,6 +50,14 @@ footer{
  text-align:right;
 }
 
+/* ID's */
+
+#idCopyrightMessage{
+ font-weight:bold;
+ background-color:black;
+ color:white;
+}
+
 /* Classes */
 
 .clsTimeDateStamp{
