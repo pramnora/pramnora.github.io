@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<data-file>
+ <record number="1">
+  This is the first record.
+ </record>
+ <record number="2">
+  This is the second record.
+ </record>
+ <record number="3">
+  This is the third record.
+ </record>
+</data-file>
