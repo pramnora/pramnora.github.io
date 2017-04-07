@@ -41,35 +41,40 @@ html{
 
 body{
  font-family:arial,verdana,sans-serif;
+ font-size:normal;
 }
 
 /* Header */
 
 header{
- background-color:gray;
+ background-color:rgba(0,128,128,.5);
  text-align:center;
 }
 
 h1{
  color:black;
+ font-size:600%;
 }
 
 h2{
+ background-color:rgba(0,128,128,.3);
  color:white;
+ text-align:left;
 }
 
 /* Nav */
 
-nav{
-
+h2,nav{
+ padding-left:1%;
 }
 
 /* Footer */
 
 footer{
- background-color:silver;
+ background-color:rgba(64,128,128,.4);
  color:black;
  text-align:right;
+ padding-right:1%;
 }
 
 /* ID's */
