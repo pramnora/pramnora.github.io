@@ -1,0 +1,70 @@
+/*
+ * Created: 13:59 07/04/2017
+ * Updated: 13:59 07/04/2017
+ */
+
+/* Links */
+
+a:link{
+ text-decoration:none;
+ color:blue;
+}
+
+a:visited{
+ color:purple;
+}
+
+a:hover{
+ text-decoration:underline;
+ color:red;
+}
+
+/* Html */
+
+html{
+ margin-right:1%;
+ margin-left:1%;
+}
+
+/* Body */
+
+body{
+ font-family:arial,verdana,sans-serif;
+ background-color:white;
+ color:black;
+}
+
+/* Header */
+
+header{
+ text-align:center;
+}
+
+/* Main */
+
+main>p{
+ text-indent:1cm;
+}
+
+/* Footer */
+
+footer{
+ text-align:center;
+}
+
+/* ID's */
+
+#copyrightMessage{
+ background-color:black;
+ color:white;
+} 
+
+/* Classes */
+
+.bold{
+ font-weight:bold;
+}
+
+.italic{
+ font-style:italic;
+}
