@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <!--NOTE: The 'original' code was borrowed from:
+     Udemy course: Create a calculator web app with Javascript/HTML/CSS - Instructor: Aarthi Elumalai
+     https://www.udemy.com/create-a-calculator-web-app-with-javascript-html-css/learn/v4/overview
+     --------------------------------------------------------------------------------------------------          
+     NOTE: The above code has been personally adapted by me, Paul Ramnora, on the date: 26th April 2017.
+     My adpatation can be found here:
+     https://github.com/pramnora/javascript/blob/master/Course/Udemy/CalculatorApp/index.html
+  -->
+
+ <head>
+
+  <meta charset="utf-8" />
+
+  <title>A basic calculator app.</title>
+
+  <style>
+
+   html{
+    margin: 0 25% 0 25%;
+    background-color:white;
+   }
+
+   body{
+    background-color:pink;
+    font-family:"comic sans ms",arial,verdana,sans-serif;
+   }  
+
+   header,footer,form{
+    text-align:center;
+   }
+
+   form{
+    width:25%;
+    margin:20px auto;
+    border:5px solid black;
+    border-radius:7px;
+    padding:15px;
+    background-color:silver;
+   }
+
+   input{
+    font-weight:bold;
+   }
+
+   input[type=text]{
+    background:yellow;
+   }
+
+   hr{
+    width:50%;
+    height:10px;
+    background-color:red;
+   }
+
+   .clsTimeDateStamp{
+    font-style:italic;
+   }
+
+  </style>
+
+  <script>
+   function doCalc(c){    
+    strOut = document.calc.output.value.toString();         /* create string of output screen values/(shortens code)       */ 
+
+    switch(c){
+     case "=":                                              /* If '=' sign button is pressed...                            */
+      document.calc.output.value = eval(strOut);            /* then, do calculation; and, display total on output screen.  */
+      break;
+     case "DEL":                                            /* If 'DEL' button is pressed...                               */
+      document.calc.output.value=strOut.slice(0,-1);        /* then, delete off the last output screen character           */
+      break;
+     case "Clear":                                          /* If 'Clear' button is pressed...                             */
+      document.calc.output.value = "";                      /* then, clear calculator output screen.                       */
+      break;
+     case "Square":                                         /* If 'Square' button is pressed...                            */
+      document.calc.output.value = strOut**2;               /* then, square number/and, display on output screen.          */
+      break;
+     case "Cube":                                           /* If 'Cube' button is pressed...                              */
+      document.calc.output.value = strOut**3;               /* then, cube number/and, display on output screen.            */
+      break;
+     default:                                               /* the default case...(if no match was found above)...         */
+      document.calc.output.value += c;                      /* then, add either: 'numbers/operators', to output screen     */
+    }
+
+   } //...end of function: doCalc()
+  </script>
+
+ </head>
+
+ <body>
+
+  <header>
+
+   <h1>
+    A Basic Calculator App.
+   </h1>
+
+  </header>
+
+  <hr />
+
+  <main>
+
+   <div id="idContainer">
+
+    <form name="calc">
+
+     <input type="text" name="output" placeholder="0">  
+
+     <br />
+
+     <input type="button" value=" 1 " onclick="doCalc('1')" />
+     <input type="button" value=" 2 " onclick="doCalc('2')" />
+     <input type="button" value=" 3 " onclick="doCalc('3')" />
+     <input type="button" value=" / " onclick="doCalc('/')" />
+      
+     <br />
+
+     <input type="button" value=" 4 " onclick="doCalc('4')" />
+     <input type="button" value=" 5 " onclick="doCalc('5')" />
+     <input type="button" value=" 6 " onclick="doCalc('6')" />
+     <input type="button" value=" * " onclick="doCalc('*')" />
+      
+
+     <br />
+
+     <input type="button" value=" 7 " onclick="doCalc('7')" />
+     <input type="button" value=" 8 " onclick="doCalc('8')" />
+     <input type="button" value=" 9 " onclick="doCalc('9')" />
+     <input type="button" value=" - " onclick="doCalc('-')" />
+
+     <br />
+
+     <input type="button" value=" ( " onclick="doCalc('(')" />
+     <input type="button" value=" ) " onclick="doCalc(')')" />
+     <input type="button" value=" 0 " onclick="doCalc('0')" />
+     <input type="button" value=" + " onclick="doCalc('+')" />
+
+     <br />
+
+     <input type="button" value=" % " onclick="doCalc('%')" />
+     <input type="button" value=" . " onclick="doCalc('.')" />
+     <input type="button" value=" = " onclick="doCalc('=')" />
+
+     <br />
+
+     <input type="button" value=" Square " onclick="doCalc('Square')" />
+     <input type="button" value=" Cube " onclick="doCalc('Cube')" />
+
+     <br />
+
+     <input type="button" value=" DEL " onclick="doCalc('DEL')" />
+     <input type="button" value=" Clear " onclick="doCalc('Clear')" />
+
+    </form>
+
+   </div>  
+
+  </main>
+
+  <hr />
+
+  <footer>
+
+   <p>
+
+    Page created: 
+    <span class="clsTimeDateStamp">
+     07:32 25/04/2017
+    </span>
+
+    <br />
+
+    Last updated:
+    <span class="clsTimeDateStamp">
+     16:35 26/04/2017
+    </span>
+
+   </p>
+
+  </footer>
+
+ </body>
+
+</html>
