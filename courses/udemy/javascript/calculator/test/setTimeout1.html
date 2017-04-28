@@ -6,11 +6,17 @@ var intCounter=0;
 
 //*** create an array to hold messages...
 
-var araStrMessages=["Hi,<br>",
-                     "and, very warmly welcome to...<br>",
-                     "PaulRamnora's web page!"  
-                    ] 
+var araStrMessages=["Mary had a little lamb,<br>",
+                     "Whose fleece was white as snow<br>",
+                     "And, everywhere that Mary went,<br>",
+                     "The lamb was sure to follow."
+                   ] 
+                    
+//*** use for loop to print out all text messages inside of array...
 
+for (intNoOfSecs=1;intNoOfSecs<(araStrMessages.length)+1;intNoOfSecs++){
+ setTimeout(fPrintEachLineOfArrayMessageText,intNoOfSecs*1000);
+}
 //*** create a function to print each line of message text...
 
 function fPrintEachLineOfArrayMessageText(){
@@ -18,10 +24,4 @@ function fPrintEachLineOfArrayMessageText(){
   intCounter+=1;
  }
  
-//*** use for loop to print out all text messages inside of array...
-
-for (intNoOfSecs=1;intNoOfSecs<(araStrMessages.length)+1;intNoOfSecs++){
- setTimeout(fPrintEachLineOfArrayMessageText,intNoOfSecs*1000);
-}
-
 </script>
