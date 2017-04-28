@@ -15,11 +15,11 @@ var araStrMessages=["Mary had a little lamb,<br>",
 //*** use for loop to print out all text messages inside of array...
 
 for (intNoOfSecs=0;intNoOfSecs<(araStrMessages.length);intNoOfSecs++){
- setTimeout(fPrintEachLineOfArrayMessageText,(intNoOfSecs+1)*1000);
+ setTimeout(funPrintEachLineOfArrayMessageText,(intNoOfSecs+1)*1000);
 }
 //*** create a function to print each line of message text...
 
-function fPrintEachLineOfArrayMessageText(){
+function funPrintEachLineOfArrayMessageText(){
   document.write(araStrMessages[intCounter]);
   intCounter+=1;
  }
