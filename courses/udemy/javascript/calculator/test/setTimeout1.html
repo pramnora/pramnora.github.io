@@ -1,0 +1,78 @@
+<script>
+
+ /* This code borrowed from...
+    YouTube Channel ID: DoingITeasyChannel
+    JavaScript Lesson 10 setTimeout, setInterval & clearInterval
+    https://www.youtube.com/watch?v=BVALvvy5bZY
+    ------------------------------------------------------------
+    The above code adapted by me on:
+    Created: 07:37 28/04/2017
+    Updated: 07:37 28/04/2017
+?
+    The code below sets up a Javascript array to store a number of messages;
+    then, it uses a loop to print out and display each line of the separate array messages
+    with a 1 second time gap in between.
+ */
+?
+?//*** Counter variable is used to loop through each array message...
+?
+?var intCounter=0;?
+
+?//*** create an array to hold messages...
+?
+? var araStrMessages=["Hi,<br>",
+                     "and, very warmly welcome to...<br>",
+                     "PaulRamnora's web page!"  
+                    ] 
+
+?? //*** create a function to print each line of message text...
+
+? function fPrintEachLineOfArrayMessageText(){
+  document.write(araStrMessages[intCounter]);
+  intCounter+=1;
+ }
+?
+? //*** use for loop to print out all text messages inside of array...
+
+? for (intNoOfSecs=1;intNoOfSecs<(araStrMessages.length)+1;intNoOfSecs++){
+  setTimeout(fPrintEachLineOfArrayMessageText,intNoOfSecs*1000);
+ }
+
+?</script>
+<script>
+
+ /* NOTE: If your own text passage does already contain the
+          new line character: '/'; then, you would need to change 
+          this character to become a different character, instead;
+          which was NOT contained inside of your own text passage. 
+ */
+
+ var strNewLineChar="/"
+
+ var strText="To be; or, not to be;" + strNewLineChar +  
+             "That is the question," + strNewLineChar +
+             "Whether, 'tis nobler in the mind," + strNewLineChar +
+             "To suffer the slings and arrows" + strNewLineChar +
+             "Of outrageous fortune," + strNewLineChar +
+             "Or, to take arms against a sea of troubles;" + strNewLineChar +
+             "And, by opposing, end them; to die, to sleep,"
+ 
+ intEachLetterNo=0;
+
+ setIntervalID=setInterval(function(){
+
+  if (strText[intEachLetterNo]==strNewLineChar) {
+   document.write("<br>");
+  } else { 
+   document.write(strText[intEachLetterNo]);
+  }
+
+  if(intEachLetterNo==strText.length-1){
+   clearInterval(setIntervalID);
+  } else {
+   intEachLetterNo+=1;
+  }
+
+ },1000)
+
+</script>
