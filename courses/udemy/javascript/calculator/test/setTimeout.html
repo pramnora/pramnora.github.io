@@ -1,0 +1,46 @@
+<script>
+
+/* 
+   This Javascript program will output 3 single line text messages...;
+   with each message being output one after the other
+   using a 'timed' sequential order:
+   (wait 1 sec)
+   Line 1
+   (wait 2 sec)
+   Line 2
+   (wait 3 sec)
+   Line 3
+   ...so, that after 3 seconds all lines will be output.
+*/
+
+  /*--------------------------------------------------*/
+
+  //*** declare function 1...
+
+  function msg01(){
+   document.write("line 1<br>");
+  } 
+
+  setTimeout(msg01,1000); //...function call to: msg01
+
+  /*--------------------------------------------------*/
+
+  //*** declare function 2...
+
+  function msg02(){
+   document.write("line 2<br>");
+  } 
+
+  setTimeout(msg02,2000); //...function call to: msg02
+
+  /*--------------------------------------------------*/
+
+  //*** declare function 3...
+
+  function msg03(){
+   document.write("line 3<br>");
+  } 
+
+  setTimeout(msg03,3000); //...function call to: msg03
+
+</script>

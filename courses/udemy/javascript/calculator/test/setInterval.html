@@ -1,0 +1,13 @@
+<script>
+ var counter=10;
+ var setIntervalID = setInterval(function(){
+  document.write("Countdown: " + counter + "<br>");
+  counter-=1;
+  if(counter===0){
+   document.write("-YES! Rocket launch is successful...<br>");
+   document.write("...leading to...<br>");
+   document.write("...Blastoff...!!!");
+   clearInterval(setIntervalID); 
+  }
+ },1000);
+</script>
