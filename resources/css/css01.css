@@ -1,0 +1,59 @@
+/* CSS Stylesheet for...
+   pramnora.github.io
+
+   CREATED: Sun 19 Jul 2026 18:58 AM GMT
+   UPDATED: Sun 19 Jul 2026 18:58 AM GMT
+*/
+
+/* links */
+
+a:link{color:blue;text-decoration:none;}
+a:hover{color:red;text-decoration:underline;}
+a:active{color:orange;}
+a:visited{color:purple;}
+
+/* html */
+   
+html{
+ background-color:black;
+ margin:1cm;
+}
+
+/* body */
+   
+body{
+ font-family:arial,verdana,sans-serif;
+ color:white;
+}
+
+header,footer{
+ text-align:center;
+}
+
+main{
+ border-radius:10px;
+ padding:1cm;
+ background-color:white;
+ color:black;   
+}   
+
+/* Class */
+ 
+.clsDateTimeStamp{
+ color:red;
+ font-style:italic;
+}
+
+/* IDs */
+
+#idSiteCategory{
+ color:green;
+ font-weight:bold;
+}
+
+#idSiteName{
+ color:yellow;
+ font-weight:bold;
+}
+
+
